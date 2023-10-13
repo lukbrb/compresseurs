@@ -9,7 +9,6 @@ Liste des algorithmes implémentés:
 L'[algorithme de Lempel-Ziv-Welch](https://fr.wikipedia.org/wiki/Lempel-Ziv-Welch) est un algorithme de compression de données sans perte. L'algorithme de compression est le suivant :
 
 ``` algorithm
-
 FONCTION LZW_Compresser(Texte, dictionnaire)
 
     w ← ""
@@ -29,7 +28,6 @@ FONCTION LZW_Compresser(Texte, dictionnaire)
 Tandis que celui de décompression est :
 
 ``` algorithm
-
 FONCTION LZW_Décompresser(Code, dictionnaire)
 
      n ← |Code|
