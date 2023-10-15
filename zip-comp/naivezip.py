@@ -2,7 +2,7 @@
 
 import sys
 
-table = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+table = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,! ")
 
 def main():
     if len(sys.argv) < 2:
